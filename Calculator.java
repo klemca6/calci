@@ -1,4 +1,4 @@
-public class Calculator {
+public class Calculator extends Extendedcalculator{
     public void Additon(int a,int b)
     {
         int sum=a+b;
@@ -23,11 +23,15 @@ public class Calculator {
     {
         int a=10;
         int b=5;
+        int d=27;
         Calculator c = new Calculator();
          c.Additon(a,b);
          c.Substraction(a, b);
          c.Multiplication(a, b);
          c.Division(a, b);
+         c.Square(a);
+         c.Cuberoot(d);
+         c.Modulas(a, b);
     }
 
 }
